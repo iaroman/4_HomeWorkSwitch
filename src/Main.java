@@ -71,40 +71,24 @@ public class Main {
         System.out.println("... Задача 5 ...");
         switch (monthNumber) {
             case 1:
-                System.out.println("Сейчас зима");
-                break;
             case 2:
+            case 12:
                 System.out.println("Сейчас зима");
                 break;
             case 3:
-                System.out.println("Сейчас весна");
-                break;
             case 4:
-                System.out.println("Сейчас весна");
-                break;
             case 5:
                 System.out.println("Сейчас весна");
                 break;
             case 6:
-                System.out.println("Сейчас лето");
-                break;
             case 7:
-                System.out.println("Сейчас лето");
-                break;
             case 8:
                 System.out.println("Сейчас лето");
                 break;
             case 9:
-                System.out.println("Сейчас осень");
-                break;
             case 10:
-                System.out.println("Сейчас осень");
-                break;
             case 11:
                 System.out.println("Сейчас осень");
-                break;
-            case 12:
-                System.out.println("Сейчас зима");
                 break;
             default:
                 System.out.println("На нашей планете нет такого месяца!");
